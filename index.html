@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+	<meta charset="uts-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VCXtension</title>
+    <link rel="stylesheet" href="css/style_index.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/create.js"></script>
+</head>
+
+<body>
+    <img src="img/logo202.png">
+	<nav>
+        <div id="navbar">
+            <a class="one" href="static/register.html">Signup</a>
+            <a class="one" href="../static/login.html">Login</a>
+            <a class='one'>Contact us</a>
+            <a class='one'>Download</a>
+        </div>
+	</nav>
+    <div id="pop">
+        <div id="about">
+            <h1>About VCXtension</h1>
+            <p>VCXtension is a Google Chrome Extension tool which enables Q&A anytime during a videoconference/webinar.</p>
+        </div>
+        
+        <div>
+            <h1>Create Room (Free user)</h1>
+            <input type="text" id="roomfreename" placeholder="Room name" required></input><br><br>
+            <textarea id="transcript-free" placeholder="Transcript"></textarea><br><br>
+            <div id='rmkey'></div>
+            <div id='rmspeaker'> 
+            </div>
+            <button type="submit" id="createFree">Create Room</button>
+        </div>
+        <div class="purchase">
+            <h1>Pricing</h1>
+            <div class="container">
+                        <div class="pricingTable">
+                            <div class="pricing-content">
+                                <div class="pricingTable-header">
+                                    <h3 class="title">Standard</h3>
+                                    <h5>1 Week Free Trial</h5>
+                                </div>
+                                <ul class="content-list">
+                                    <li>1-Day Rooms</i></li>
+                                    <li>Google Meet Captions Support</li>
+                                    <li>Unlimited Users</li>
+                                    <li>7 Days Trial</li>
+                                </ul>
+                                <div class="price-value">
+                                    <span class="amount">Free</span>
+                                    <span class="duration">7 Days</span>
+                                </div>
+                                <div class="pricingTable-signup">
+                                    <a href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pricingTable blue">
+                            <div class="pricing-content">
+                                <div class="pricingTable-header">
+                                    <h3 class="title">PRO</h3>
+                                    <h5>Everything in Standard + more!</h5>
+                                </div>
+                                <ul class="content-list">
+                                    <li>5-Day Rooms</li>
+                                    <li>Question Escalation</li>
+                                    <li>Text-to-speech & Speech-to-text support</li>
+                                    <li>Active Room Overview</li>
+                                </ul>
+                                <div class="price-value">
+                                    <span class="amount">$19.99</span>
+                                    <span class="duration">lifetime</span>
+                                </div>
+                                <div class="pricingTable-signup">
+                                    <a href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+  </body>
+
+
+
+</html>

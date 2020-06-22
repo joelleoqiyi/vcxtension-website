@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<!--for pro users-->
+
+<head>
+	<meta charset="uts-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VCXtension PRO</title>
+    <link rel="stylesheet" href="../css/style_index.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/createPRO.js"></script>
+    <script src="../scripts/auth.js"></script>
+    <script src="../scripts/data.js"></script>
+</head>
+
+<body>
+	<nav>
+        <div id="navbar">
+            <a class="two" href="#">VCXtension PRO</a> 
+            <button class="signOut" id="signOut" type="submit">Log-out</button>
+        </div>
+    </nav><br><br>
+    <div id="createRoom">
+        <div id="roomInfo">
+            <h3>Pro user create room</h3><br><br><br>
+            <input type="text" id="roomdename" placeholder="Room name" required></input><br><br>
+            <textarea id="transcript" placeholder="Transcript"></textarea><br><br>
+            <button type="submit" id="createPRORoom">Create PRO Room</button><br><br>
+        </div>
+        <div id='proinfo'>
+        <table id="PROtable">
+            <th id="rmName">Currently active room</th>
+            <th id="rmToken">Room token</th>
+        </table><br>
+        <div id='speaker'>    
+        </div>
+        <div id='rToken'>
+        </div>
+        </div>
+    </div>
+
+	<div class="alert" id="alertMsg">
+    </div> 
+</body>
+
+
+
+</html>
