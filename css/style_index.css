@@ -15,7 +15,7 @@ html{
   background-color: #888;
   border: 4px solid transparent;
   border-radius: 8px;
-  background-clip: padding-box;  
+  background-clip: padding-box;
 }
 
 ::-webkit-scrollbar {
@@ -72,7 +72,7 @@ a.one2{
   color:white;
   text-align: center;
   position: relative;
-  left: 15%;
+  left: 10%;
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.4s;
@@ -121,7 +121,7 @@ a.two:hover
   background-color: #014080;
   color: white;
   text-decoration: none;
-} 
+}
 
 h1{
   margin: 100px 60px 60px 60px;
@@ -201,7 +201,7 @@ p{
   font-family: 'Poppins', sans-serif;
   padding-bottom: 20px;
   margin: 0 0 5px;
-  
+
 }
 
 .pricingTable .title{
@@ -311,13 +311,13 @@ table, th, td {
 
 #roomdename, #transcript {
   margin: 20px;
-  width: 600px; 
+  width: 600px;
   height: 100px;
 }
 
 #roomfreename, #transcript-free {
   margin: 20px;
-  width: 600px; 
+  width: 600px;
   height: 100px;
   position: relative;
   left: 4%;
@@ -348,7 +348,7 @@ button#createFree:hover {
   background-color: #464a45;
   color: white;
   text-decoration: none;
-} 
+}
 
 button#createFree {
   position: relative;

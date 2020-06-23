@@ -11,14 +11,15 @@
     <script src="scripts/create.js"></script>
 </head>
 
-<body>
+<body id="body">
     <img src="images/logo202.png">
 	<nav>
         <div id="navbar2">
+            <a class='one2'>About Us</a>
+            <a class='one2'>Contact</a>
+            <a class='one2'>Download</a>
             <a class="one2" href="static/register.html">Signup</a>
             <a class="one2" href="../static/login.html">Login</a>
-            <a class='one2'>Contact us</a>
-            <a class='one2'>Download</a>
         </div>
 	</nav>
     <div id="pop2">
@@ -26,17 +27,17 @@
             <h1>About VCXtension</h1>
             <p>VCXtension is a Google Chrome Extension tool which enables Q&A anytime during a videoconference/webinar.</p>
         </div>
-        
+
         <div>
             <h1>Create Room (Free user)</h1>
             <input type="text" id="roomfreename" placeholder="Room name" required></input><br><br>
             <textarea id="transcript-free" placeholder="Transcript"></textarea><br><br>
             <div id='rmkey'></div>
-            <div id='rmspeaker'> 
+            <div id='rmspeaker'>
             </div>
-            <button type="submit" id="createFree">Create Room</button><br>
+            <button type="submit" id="createFree" onclick="changeColor();">Create Room</button><br>
             <div class="alert" id="alertMsg">
-            </div> 
+            </div>
         </div>
         <div class="purchase">
             <h1>Pricing</h1>
@@ -58,7 +59,7 @@
                                     <span class="duration">7 Days</span>
                                 </div>
                                 <div class="pricingTable-signup">
-                                    <a href="#">Sign Up</a>
+                                    <a href="static/register.html">Sign Up</a>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +81,7 @@
                                     <span class="duration">lifetime</span>
                                 </div>
                                 <div class="pricingTable-signup">
-                                    <a href="#">Sign Up</a>
+                                    <a hhref="static/register.html">Sign Up</a>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +89,20 @@
             </div>
         </div>
     </div>
-        
+
   </body>
 
-
+  <script>
+  var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "#DAA588"];
+  var colorIndex = 0;
+  function changeColor() {
+      var col = document.getElementById("body");
+      if( colorIndex >= colors.length ) {
+          colorIndex = 0;
+      }
+      col.style.backgroundColor = colors[colorIndex];
+      colorIndex++;
+  }
+</script>
 
 </html>
