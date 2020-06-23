@@ -11,8 +11,6 @@ $(document).ready(function(){
         if (!validateRoomName){
           $("#alertMsg").text(`Error! Please ensure that the Room Name field is not empty`);
           return;
-        } else {
-          $("#alertMsg").text(`Please wait while the room is being created.`);
         }
         $.post("https://vcxtension.herokuapp.com/create",
           {

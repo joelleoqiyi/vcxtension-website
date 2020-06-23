@@ -36,17 +36,6 @@ nav{
   height: 90px;
 }
 
-#navbar2{
-  width: 100%;
-  background: #205e9e;
-  overflow: hidden;
-  position: relative;
-  top: -6%;
-  font-family: 'Bitter', serif;
-  z-index: 2;
-  height: 70px;
-}
-
 a.one{
   padding: 28px;
   margin: 0 20px;
@@ -61,23 +50,6 @@ a.one{
   font-weight: bold;
   transition: 0.4s;
   height: 80px;
-}
-
-a.one2{
-  padding: 10px;
-  margin: 0 20px;
-  width: 140px;
-  display: inline-block;
-  text-decoration: none;
-  color:white;
-  text-align: center;
-  position: relative;
-  left: 15%;
-  text-transform: uppercase;
-  font-weight: bold;
-  transition: 0.4s;
-  height: 70px;
-  top: 36%;
 }
 
 button.signOut{
@@ -115,7 +87,6 @@ a.two {
 }
 
 a.one:hover,
-a.one2:hover,
 a.two:hover
  {
   background-color: #014080;
@@ -139,11 +110,11 @@ h2{
 #createRoom {
   background-color: white;
   border-radius: 30px;
-  height: 1000px;
+  height: 900px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  width: 86%;
+  width: 80%;
   position: relative;
-  left: 8%;
+  left: 10%;
 }
 
 h3{
@@ -157,7 +128,7 @@ h3{
 }
 
 p{
-  margin: 60px;
+  margin: 100px;
   text-align: left;
   font-size: 20px;
 
@@ -360,13 +331,14 @@ button#createFree {
   text-align: center;
   display: inline-block;
   margin: auto;
-  top: -10%;
+  top: 120px;
 }
 
 #roomInfo {
   display: inline-block;
   position: relative;
-  top: 10%;
+  left: -200px;
+  top: 100px;
   margin: 16px;
 }
 
@@ -375,15 +347,6 @@ button#createFree {
   width: 1100px;
   position: absolute;
   left: 20%;
-  height: 2000px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-}
-
-#pop2 {
-  background-color: white;
-  width: 1100px;
-  position: absolute;
-  left: 8%;
   height: 2000px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
@@ -401,10 +364,4 @@ img {
   left: 6%;
   text-align: left;
   padding-bottom: 20px;
-}
-
-.alert {
-  padding: 20px;
-  color: black;
-  margin-bottom: 15px;
 }

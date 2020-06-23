@@ -138,10 +138,13 @@
       color: #777;
     }
   }
-  
+
+  /* alert message
+  ------------------------------------------------- */
   .alert {
     padding: 20px;
-    color: black;
+    background-color: #f44336; /* Red */
+    color: white;
     margin-bottom: 15px;
   }
   

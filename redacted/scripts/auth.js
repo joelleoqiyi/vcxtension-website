@@ -23,7 +23,6 @@ $(document).ready(function(){
                   localStorage.setItem('VCXusername', String(validateUsername));
                   localStorage.setItem('VCXpassword', String(validatePassword));
                   window.location.href = "account.html"
-                  $("#alertMsg").text(`Logging in`);
                 } else {
                   $("#alertMsg").text(`Error! You browser doesn't support cookies? yum yum!`);
                 }
